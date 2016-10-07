@@ -1,21 +1,20 @@
 $("button").click(function(){
 
-	var first_name = $("#first_name").val();
+	var firstName = $("#firstName").val();
+
 	var city = $("#city").val();
-	var last_name = $("#last_name").val();
-	console.log(first_name);
 
-	var gerard = {
+	var lastName = $("#lastName").val();
 
-		first_name : first_name,
+	var texte = {
+
+		firstName : firstName,
 		city : city,
-		last_name : last_name
+		lastName : lastName
 
 	}
-	console.log(gerard);
-	$("span").html(gerard.first_name +" "+last_name)
-
 	
+	$("span").html(texte.firstName +" "+lastName)
 
 });
 
